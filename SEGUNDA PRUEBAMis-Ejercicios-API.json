@@ -1,0 +1,88 @@
+{
+	"info": {
+		"_postman_id": "f13d38d5-ea4d-4702-a480-627a418d564f",
+		"name": "SEGUNDA PRUEBA",
+		"description": "ANIDACION",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+		"_exporter_id": "48214638"
+	},
+	"item": [
+		{
+			"name": "New Request",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "https://jsonplaceholder.typicode.com/users/3/albums",
+					"protocol": "https",
+					"host": [
+						"jsonplaceholder",
+						"typicode",
+						"com"
+					],
+					"path": [
+						"users",
+						"3",
+						"albums"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "New Request",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n  \"name\": \"Karen Rodriguez\",\r\n  \"username\": \"karen_data\",\r\n  \"email\": \"karen@ejemplo.com\",\r\n  \"address\": {\r\n    \"street\": \"Av. Triunvirato\",\r\n    \"city\": \"Villa Urquiza\",\r\n    \"zipcode\": \"1431\"\r\n  },\r\n  \"company\": {\r\n    \"name\": \"Data Analytics Corp\"\r\n  }\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "https://jsonplaceholder.typicode.com/users",
+					"protocol": "https",
+					"host": [
+						"jsonplaceholder",
+						"typicode",
+						"com"
+					],
+					"path": [
+						"users"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "New Request",
+			"request": {
+				"method": "GET",
+				"header": [
+					{
+						"key": "Authorization",
+						"value": "Bearer mi_token_secreto_123",
+						"type": "text"
+					}
+				],
+				"url": {
+					"raw": "https://jsonplaceholder.typicode.com/todos",
+					"protocol": "https",
+					"host": [
+						"jsonplaceholder",
+						"typicode",
+						"com"
+					],
+					"path": [
+						"todos"
+					]
+				}
+			},
+			"response": []
+		}
+	]
+}
