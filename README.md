@@ -11,3 +11,5 @@ PATCH: Actualización parcial de recursos existentes.
 Status Codes: Identificación de respuestas 200, 201 y 404.
 
 Herramientas usadas: Postman, JSONPlaceholder API.
+
+[SEGUNDA PRUEBA - Personal Workspace 2026-02-20 20-54-38.zip](https://github.com/user-attachments/files/25454193/SEGUNDA.PRUEBA.-.Personal.Workspace.2026-02-20.20-54-38.zip)
