@@ -12,4 +12,4 @@ Status Codes: Identificación de respuestas 200, 201 y 404.
 
 Herramientas usadas: Postman, JSONPlaceholder API.
 
-[SEGUNDA PRUEBA - Personal Workspace 2026-02-20 20-54-38.zip](https://github.com/user-attachments/files/25454193/SEGUNDA.PRUEBA.-.Personal.Workspace.2026-02-20.20-54-38.zip)
+<img width="1363" height="719" alt="Captura de pantalla 2026-02-20 205934" src="https://github.com/user-attachments/assets/3b46388b-f298-416b-bbca-717aa7cb70d9" />
